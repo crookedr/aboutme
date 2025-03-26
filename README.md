@@ -8,7 +8,7 @@
 
 ## 📸 Náhľad
 
-![Screenshot Preview](./public/images/frio-mockup.png)
+![Screenshot Preview](./public/images/aboutme-screenshot.png)
 
 > (Ak ešte nemáš screenshot, pokojne ho neskôr doplníš do `public/images/`)
 
