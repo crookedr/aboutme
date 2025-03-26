@@ -10,14 +10,6 @@
 
 ![Screenshot Preview](./public/images/aboutme-screenshot.png)
 
-> (Ak ešte nemáš screenshot, pokojne ho neskôr doplníš do `public/images/`)
-
----
-
-## 🚀 Live náhľad
-
-> *(Nasadíme neskôr na Vercel – tu bude link)*
-
 ---
 
 ## ✨ Funkcie
@@ -37,8 +29,8 @@
 - 🎨 [Tailwind CSS](https://tailwindcss.com/) – utility-first styling  
 - 🎥 [Framer Motion](https://www.framer.com/motion/) – animácie  
 - 📬 [Formspree](https://formspree.io/) – odosielanie správ  
-- 🧠 TypeScript – typová istota  
-- 🧰 Git + GitHub – verzovanie a správa kódu
+- 🧠 [TypeScript](https://www.typescriptlang.org/) – typová istota  
+- 🧰 [Git + GitHub](https://git-scm.com/) – verzovanie a správa kódu
 
 ---
 
