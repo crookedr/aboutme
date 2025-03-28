@@ -8,7 +8,7 @@
 
 ## 📸 Náhľad
 
-![Screenshot Preview](./public/images/aboutme-screenshot.png)
+![Screenshot Preview](./public/images/aboutme.png)
 
 ---
 
