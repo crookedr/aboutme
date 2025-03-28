@@ -28,7 +28,7 @@ export default function Projects() {
     {
       title: 'SmoothUp – CS2 app',
       description:
-        'Desktopová appka zameraná na optimalizáciu výkonu v CS2. Analyzuje hardvér, odporúča nastavenia a má moderné UI.',
+        'Desktop appka zameraná na optimalizáciu výkonu v CS2. Analyzuje hardvér, odporúča nastavenia a má moderné UI.',
       image: '/images/smoothuplogo.png',
       demo: 'Vo vývoji',
       isDemoAvailable: false,
