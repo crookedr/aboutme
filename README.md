@@ -55,6 +55,10 @@ aboutme/
 
 ---
 
+## Live preview
+
+https://aboutme-psi-ivory.vercel.app/
+
 ## 🧪 Lokálne spustenie
 
 ```bash
