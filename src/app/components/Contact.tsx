@@ -76,7 +76,7 @@ export default function Contact() {
         <input
           type="text"
           name="name"
-          placeholder="Tvoje meno"
+          placeholder="Vaše meno"
           required
           className="w-full p-3 bg-gray-800 rounded-lg border border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
         />
@@ -121,7 +121,7 @@ export default function Contact() {
         <a href="https://www.linkedin.com/in/romanhatnan%C4%8D%C3%ADk/" target="_blank" rel="noopener noreferrer">
           <FaLinkedin className="hover:text-white transition" />
         </a>
-        <a href="mailto:crookedlmd@gmail.com">
+        <a href="mailto:hatnancikroman@gmail.com">
           <MdEmail className="hover:text-white transition" />
         </a>
         <a href="https://discord.com/users/667726014864162836" target="_blank" rel="noopener noreferrer">
