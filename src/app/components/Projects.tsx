@@ -22,7 +22,7 @@ export default function Projects() {
         'Portfólio vytvorené v Next.js s dôrazom na animácie, sekcie o mne, responzívny dizajn a profesionálne UI.',
       image: '/images/aboutme.png',
       github: 'https://github.com/crookedr/aboutme',
-      demo: 'https://aboutme-psi-ivory.vercel.app/',
+      demo: 'https://crookedr.com/',
       isDemoAvailable: true,
     },
     {
