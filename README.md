@@ -56,7 +56,7 @@ aboutme/
 
 ## Online
 
-Stránka je dostupná na mojej doméne: crookedr.com
+Stránka je dostupná na mojej doméne: [www.crookedr.com](https://crookedr.com/)
 ---
 
 ## 🧪 Lokálne spustenie
