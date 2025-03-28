@@ -52,12 +52,12 @@ aboutme/
 ├── tsconfig.json
 └── tailwind.config.js
 ```
-
 ---
 
-## Live preview
+## Online
 
-https://aboutme-psi-ivory.vercel.app/
+Stránka je dostupná na mojej doméne: crookedr.com
+---
 
 ## 🧪 Lokálne spustenie
 
@@ -75,7 +75,7 @@ Stránka sa spustí na [http://localhost:3000](http://localhost:3000)
 ## 📬 Kontakt
 
 Stránka obsahuje kontaktný formulár, cez ktorý mi môžeš napísať správu.  
-Nájdeš ma tiež na GitHube, LinkedIne alebo Discorde – všetko pekne prístupné v sekcii Kontakt.
+Nájdeš ma tiež na LinkedIne alebo Discorde – všetko pekne prístupné v sekcii Kontakt.
 
 ---
 
