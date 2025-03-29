@@ -63,7 +63,7 @@ export default function Hero() {
         transition={{ duration: 0.6 }}
       />
 
-      <h1 className="text-4xl md:text-5xl font-bold mb-2 text-white font-mono">
+      <h1 className="text-2xl sm:text-4xl md:text-5xl font-bold mb-2 text-white font-mono whitespace-nowrap overflow-hidden">
         {name}
         {name.length < nameText.length && (
           <span className="ml-1 animate-pulse text-white font-bold">█</span>
