@@ -27,18 +27,23 @@ export default function Skills() {
       </motion.h2>
 
       <div className="grid grid-cols-2 sm:grid-cols-3 gap-8 place-items-center text-gray-300">
-        {skills.map((skill, index) => (
-          <motion.div
-            key={skill.name}
-            className="flex flex-col items-center gap-2"
-            initial={{ opacity: 0, y: 10 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.1 * index }}
-          >
-            <img src={skill.icon} alt={skill.name} className="w-12 h-12 invert" />
-            <p className="text-sm">{skill.name}</p>
-          </motion.div>
-        ))}
+        {skills.map((skill, index) => {
+          const isPython = skill.name === 'Python'
+          return (
+            <motion.div
+              key={skill.name}
+              className={`flex flex-col items-center gap-2 ${
+                isPython ? 'col-span-2 sm:col-span-1' : ''
+              }`}
+              initial={{ opacity: 0, y: 10 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.1 * index }}
+            >
+              <img src={skill.icon} alt={skill.name} className="w-12 h-12 invert" />
+              <p className="text-sm">{skill.name}</p>
+            </motion.div>
+          )
+        })}
       </div>
     </section>
   )
