@@ -38,18 +38,18 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="scroll-mt-20 min-h-screen px-8 py-32 bg-black text-white flex flex-col items-center"
+      className="scroll-mt-20 min-h-screen px-4 sm:px-8 py-32 bg-black text-white flex flex-col items-center"
     >
       <h2 className="text-4xl font-bold mb-16 text-center">Projekty</h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 max-w-[1600px] w-full items-stretch">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 max-w-[1600px] w-full items-stretch justify-center">
         {projects.map((project, index) => (
           <div
             key={index}
-            className="bg-gray-900 rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl hover:scale-[1.015] transition-all duration-300 flex flex-col w-full max-w-[500px]"
+            className="bg-gray-900 rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl hover:scale-[1.015] transition-all duration-300 flex flex-col w-full max-w-[500px] mx-auto"
           >
             <div
-              className="w-full h-[310px] bg-black cursor-zoom-in"
+              className="w-full bg-black cursor-zoom-in"
               onClick={() => setSelectedImage(project.image)}
             >
               <Image
@@ -57,22 +57,26 @@ export default function Projects() {
                 alt={project.title}
                 width={800}
                 height={500}
-                className="w-full h-full object-contain"
+                className="w-full object-contain aspect-video"
               />
             </div>
-            <div className="p-8 flex flex-col justify-between flex-1">
+
+            <div className="p-6 sm:p-8 flex flex-col justify-between flex-1 gap-6">
               <div>
-                <h3 className="text-3xl font-semibold mb-4 text-white">{project.title}</h3>
-                <p className="text-gray-300 mb-8 text-base leading-relaxed line-clamp-4">
+                <h3 className="text-2xl sm:text-3xl font-semibold mb-4 text-white">
+                  {project.title}
+                </h3>
+                <p className="text-gray-300 text-base leading-relaxed">
                   {project.description}
                 </p>
               </div>
-              <div className="flex gap-4">
+
+              <div className="flex flex-wrap gap-4 justify-center sm:justify-start">
                 {project.github && (
                   <a
                     href={project.github}
                     target="_blank"
-                    className="bg-blue-600 hover:bg-blue-700 text-white py-3 px-6 rounded text-base font-medium transition-colors"
+                    className="bg-blue-600 hover:bg-blue-700 text-white py-3 px-6 rounded text-base font-medium transition-colors w-full sm:w-auto text-center"
                   >
                     GitHub
                   </a>
@@ -82,12 +86,12 @@ export default function Projects() {
                   <a
                     href={project.demo}
                     target="_blank"
-                    className="bg-blue-600 hover:bg-blue-700 text-white py-3 px-6 rounded text-base font-medium transition-colors"
+                    className="bg-blue-600 hover:bg-blue-700 text-white py-3 px-6 rounded text-base font-medium transition-colors w-full sm:w-auto text-center"
                   >
                     Live
                   </a>
                 ) : (
-                  <span className="bg-gray-700 text-gray-400 py-3 px-6 rounded text-base">
+                  <span className="bg-gray-700 text-gray-400 py-3 px-6 rounded text-base w-full sm:w-auto text-center">
                     {project.demo}
                   </span>
                 )}
@@ -98,18 +102,18 @@ export default function Projects() {
       </div>
 
       {/* MODAL */}
-        {selectedImage && (
-          <div
-            className="fixed inset-0 z-50 backdrop-blur-sm flex items-center justify-center cursor-zoom-out transition-all duration-300"
-            onClick={() => setSelectedImage(null)}
-          >
-            <img
-              src={selectedImage}
-              alt="Náhľad obrázka"
-              className="max-w-[90%] max-h-[90%] rounded-xl shadow-2xl border border-white/10"
-            />
-          </div>
-        )}
+      {selectedImage && (
+        <div
+          className="fixed inset-0 z-50 backdrop-blur-sm flex items-center justify-center cursor-zoom-out transition-all duration-300"
+          onClick={() => setSelectedImage(null)}
+        >
+          <img
+            src={selectedImage}
+            alt="Náhľad obrázka"
+            className="max-w-[90%] max-h-[90%] rounded-xl shadow-2xl border border-white/10"
+          />
+        </div>
+      )}
     </section>
   )
 }
