@@ -20,7 +20,7 @@ export default function About() {
         whileInView={{ opacity: 1 }}
         transition={{ delay: 0.2 }}
       >
-        Som vývojár s hlbokým záujmom o tvorbu moderných a efektívnych webových aplikácií, ktoré sú nielen funkčné, ale aj intuitívne a používateľsky prívetivé. Moja práca je založená na filozofii jednoduchosti, čistoty a udržateľnosti kódu, pričom vždy kladiem dôraz na vysokú kvalitu používateľského zážitku. V priebehu svojej kariéry som sa venoval rôznym technológiám a neustále sa učím nové prístupy, ktoré mi pomáhajú zlepšovať moje riešenia a prispievať k inováciám v digitálnom svete. 
+        Som vývojár s hlbokým záujmom o tvorbu moderných a efektívnych webových aplikácií, ktoré sú nielen funkčné, ale aj intuitívne a používateľsky prívetivé. Moja práca je založená na filozofii jednoduchosti, čistoty a udržateľnosti kódu, pričom vždy kladiem dôraz na vysokú kvalitu používateľského zážitku. V priebehu svojej kariéry som sa venoval rôznym technológiám a neustále sa učím nové prístupy, ktoré mi pomáhajú zlepšovať moje riešenia a prispievať k inováciám v digitálnom svete.<br /> 
         Verím, že v dnešnom dynamickom prostredí je nevyhnutné neustále experimentovať, testovať nové technológie a prístupy a adaptovať sa na zmeny. Okrem samotného kódovania sa venujem aj dizajnu, kde sa snažím spojiť estetiku s funkčnosťou, aby výsledné produkty nielen dobre vyzerali, ale aj bez problémov slúžili svojim používateľom. Vždy sa zameriavam na to, aby moje aplikácie boli nielen technicky robustné, ale aj príjemné na používanie.
       </motion.p>
     </section>
