@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 👤 Aboutme – Personal Website
 
-## Getting Started
+💻 Moderná, responzívna stránka **"O mne"** postavená na **Next.js** a **Tailwind CSS**.  
+🎯 Slúži ako digitálna vizitka – prezentuje moje zručnosti, vzdelanie, projekty a ponúka rýchly kontakt.  
+⚡️ Elegantný dizajn, hladké animácie a skvelý UX pre moderné portfólio.
 
-First, run the development server:
+---
+
+## 📸 Náhľad
+
+![Screenshot Preview](./public/images/aboutme.png)
+
+---
+
+## ✨ Funkcie
+
+- ✅ Moderný tmavý dizajn  
+- ✅ Plne responzívna  
+- ✅ Framer Motion animácie  
+- ✅ Kontaktný formulár cez Formspree  
+- ✅ Komponentová architektúra (Next.js App Router)  
+- ✅ Pripravené na viacjazyčnú podporu (SVK/ENG)
+
+---
+
+## 🛠 Použité technológie
+
+- ⚙️ [Next.js](https://nextjs.org/) – React framework  
+- 🎨 [Tailwind CSS](https://tailwindcss.com/) – utility-first styling  
+- 🎥 [Framer Motion](https://www.framer.com/motion/) – animácie  
+- 📬 [Formspree](https://formspree.io/) – odosielanie správ  
+- 🧠 [TypeScript](https://www.typescriptlang.org/) – typová istota  
+- 🧰 [Git + GitHub](https://git-scm.com/) – verzovanie a správa kódu
+
+---
+
+## 📂 Štruktúra projektu
+
+```
+aboutme/
+├── public/
+│   ├── icons/
+│   └── images/
+├── src/
+│   └── app/
+│       ├── components/
+│       ├── globals.css
+│       ├── layout.tsx
+│       └── page.tsx
+├── README.md
+├── package.json
+├── tsconfig.json
+└── tailwind.config.js
+```
+---
+
+## Online
+
+Stránka je dostupná na mojej doméne: [www.crookedr.com](https://crookedr.com/)
+
+---
+
+## 🧪 Lokálne spustenie
 
 ```bash
+git clone https://github.com/crookedr/aboutme.git
+cd aboutme
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Stránka sa spustí na [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📬 Kontakt
 
-## Learn More
+Stránka obsahuje kontaktný formulár, cez ktorý mi môžeš napísať správu.  
+Nájdeš ma tiež na LinkedIne alebo Discorde – všetko pekne prístupné v sekcii Kontakt.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🢨 Poznámka
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+> Táto verzia neobsahuje jazykový prepínač (SVK/ENG). Funkcia je pripravená na implementáciu v ďalšej fáze.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Made with ❤️ by [crookedr](https://github.com/crookedr)
