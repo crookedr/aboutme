@@ -147,7 +147,7 @@ export default function Contact() {
           <FaLinkedin className="hover:text-white transition" />
         </a>
         
-        <a href="mailto:crookedlmd@gmail.com">
+        <a href="mailto:hatnancikroman@gmail.com">
           <MdEmail className="hover:text-white transition" />
         </a>
         
