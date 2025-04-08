@@ -75,14 +75,8 @@ Stránka sa spustí na [http://localhost:3000](http://localhost:3000)
 
 ## 📬 Kontakt
 
-Stránka obsahuje kontaktný formulár, cez ktorý mi môžeš napísať správu.  
-Nájdeš ma tiež na LinkedIne alebo Discorde – všetko pekne prístupné v sekcii Kontakt.
-
----
-
-## 🢨 Poznámka
-
-> Táto verzia neobsahuje jazykový prepínač (SVK/ENG). Funkcia je pripravená na implementáciu v ďalšej fáze.
+Stránka obsahuje kontaktný formulár, cez ktorý mi môžete napísať správu.  
+Nájdete ma tiež na LinkedIne alebo Discorde – všetko pekne prístupné v sekcii Kontakt.
 
 ---
 
