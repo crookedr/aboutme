@@ -16,7 +16,7 @@ export default function Contact() {
       description: "Máte nápad na vylepšenie, projekt alebo spoluprácu?<br />Chcete sa mi len tak ozvať, podeliť sa o Vašu myšlienku?<br /><br />Neváhajte ma nezáväzne kontaktovať – odpíšem rád a čo najskôr.",
       successMessage: "✅ Ďakujem! Vaša správa bola úspešne odoslaná.",
       successDetails: "Teší ma, že ste sa rozhodli ma kontaktovať.",
-      namePlaceholder: "Tvoje meno",
+      namePlaceholder: "Vaše meno",
       emailPlaceholder: "Email",
       messagePlaceholder: "Správa",
       submitButton: status === 'sending' ? 'Odosielam...' : 'Odoslať',
